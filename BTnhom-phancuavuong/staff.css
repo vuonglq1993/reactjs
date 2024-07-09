@@ -9,6 +9,7 @@
         opacity: 1;
     }
 }
+
 @keyframes fade-right {
     from {
         transform: translateX(-10%);
@@ -32,10 +33,12 @@
         opacity: 1;
     }
 }
-.Staffservicepage{
+
+.Staffservicepage {
     background-color: rgb(25 25 25);
     overflow: hidden;
 }
+
 .event1 {
     overflow: hidden;
     width: 103%;
@@ -66,6 +69,7 @@
     animation-delay: 100ms;
     animation-fill-mode: forwards;
 }
+
 .event1 strong {
     font-weight: 500;
     background: linear-gradient(106deg, #b9c3ff 12.8%, #d7b8ff 47%);
@@ -121,6 +125,7 @@
     animation-delay: 100ms;
     animation-fill-mode: forwards;
 }
+
 .event2 {
     margin: 0 0 0 0;
     overflow: hidden;
@@ -128,12 +133,12 @@
 }
 
 .event2border {
-    display:inline-block;
+    display: inline-block;
     margin: 1rem 1.5rem 0 1.5rem;
     max-width: 21rem;
     border: 1px solid rgb(74, 74, 74);
     background-color: rgb(59, 59, 59);
-    color:white;
+    color: white;
     border-radius: 10px;
     opacity: 0;
     animation-name: fade-up;
@@ -154,11 +159,12 @@
     line-height: 2rem;
 }
 
-.event3{
+.event3 {
     padding: 14rem 0 0 0;
     overflow: hidden;
     width: 103%;
 }
+
 .event3 .info {
     letter-spacing: 0.5rem;
     font-size: clamp(0.6rem, 0.8vw, 10rem);
@@ -192,21 +198,22 @@
     -webkit-text-fill-color: transparent;
 }
 
-.event4 .left{
+.event4 .left {
     overflow: hidden;
 
     display: inline-block;
     width: clamp(25rem, 46vw, 100rem);
 
 }
-.event4 .right{
+
+.event4 .right {
     overflow: hidden;
 
     display: inline-block;
     width: clamp(25rem, 46vw, 100rem);
 }
 
-.event4 .left span{
+.event4 .left span {
     overflow: hidden;
 
     color: white;
@@ -224,9 +231,8 @@
     animation-fill-mode: forwards;
 }
 
-.event4 .right span{
+.event4 .right span {
     overflow: hidden;
-
     color: white;
     margin-top: 5rem;
     display: block;
@@ -275,11 +281,13 @@
     animation-delay: 100ms;
     animation-fill-mode: forwards;
 }
+
 .event7 {
     margin-left: clamp(1rem, 4vw, 10rem);
     margin-right: clamp(1rem, 4vw, 10rem);
 
 }
+
 /* .event7 .left{
     display: inline-block;
     width: clamp(23rem, 70vw, 100rem);
@@ -291,7 +299,7 @@
 
 } */
 
-.event7 .borderleft{
+.event7 .borderleft {
     border: 1px solid rgba(255, 255, 255, 0.197);
     border-radius: 30px;
     margin-top: 4rem;
@@ -308,7 +316,7 @@
 }
 
 
-.event7 span{
+.event7 span {
     color: white;
     display: block;
     margin-left: clamp(1rem, 1.8vw, 10rem);
@@ -318,36 +326,36 @@
 
 }
 
-.event7 h2{
+.event7 h2 {
     margin: 2rem 0 2rem 0;
 }
-.event7 p{
+
+.event7 p {
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.721);
     margin: 1rem auto 1rem auto;
 }
 
-.event7 img{
+.event7 img {
     height: 3rem;
     margin-right: 0.5rem;
 }
-.event7 .image{
+
+.event7 .image {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: clamp(1rem, 1.8vw, 10rem);
     margin-right: clamp(1rem, 1.8vw, 10rem);
 }
+
 .event7 .h1text {
     padding-top: 5rem;
     font-size: clamp(2.5rem, 4vw, 10rem);
     line-height: clamp(2.5rem, 4vw, 10rem);
     color: white;
-    opacity: 0;
-    animation-name: fade-right;
-    animation-duration: 3s;
-    animation-delay: 100ms;
-    animation-fill-mode: forwards;
+
 }
+
 .event7 strong {
     font-weight: 500;
     background: linear-gradient(106deg, #b9c3ff 12.8%, #d7b8ff 47%);
@@ -359,20 +367,29 @@
 .event7 .event1end {
     font-size: clamp(1rem, 2vw, 10rem);
     color: white;
-    opacity: 0;
-    animation-name: fade-up;
-    animation-duration: 3s;
-    animation-delay: 100ms;
-    animation-fill-mode: forwards;
+
     float: right;
 
 }
-.event7 .left{
+
+.event7 .left {
     display: inline-block;
     width: clamp(25rem, 42vw, 100rem);
+    opacity: 0;
+    animation-name: fade-right;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
 }
-.event7 .right{
+
+.event7 .right {
     margin-top: 4rem;
     width: clamp(25rem, 42vw, 100rem);
     display: inline-block;
+    opacity: 0;
+
+    animation-name: fade-left;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
 }
