@@ -1,0 +1,147 @@
+.form-container {
+    /* margin: 0 auto; */
+    margin-top: clamp(1rem, 10vw, 100rem);
+    margin-bottom: 10rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Customerinformation p{
+    font-size: clamp(1rem, 1.5vw, 10rem);
+    display: inline-block;
+    margin: clamp(0rem ,1vw ,10rem);
+    font-weight: 350;
+}
+.Customerinformation input{
+    /* margin: clamp(1rem, 1vw, 10rem); */
+    width: clamp(20rem,28vw,100rem);
+    text-align: center;
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.luachon p{
+    font-size: clamp(1rem, 1.5vw, 10rem);
+    display: inline-block;
+    margin: clamp(0rem ,1vw ,10rem);
+    font-weight: 350;
+}
+
+.luachon .cacluachon{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.luachon label{
+    padding-left:  1rem;
+    padding-right: 1rem;
+    margin: clamp(1rem, 1vw, 10rem);
+    /* width: clamp(20rem,28vw,100rem); */
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.CustomerEmail p{
+    font-size: clamp(1rem, 1.5vw, 10rem);
+    display: inline-block;
+    margin: clamp(0rem ,1vw ,10rem);
+    font-weight: 350;
+}
+.CustomerEmail input{
+    margin: clamp(0rem, 2vw, 10rem);
+    width: clamp(18rem,40vw,100rem);
+    text-align: center;
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.CustomerPhone p{
+    font-size: clamp(1rem, 1.5vw, 10rem);
+    display: inline-block;
+    margin: clamp(0rem ,1vw ,10rem);
+    font-weight: 350;
+}
+.CustomerPhone input{
+    /* margin: clamp(1rem, 2vw, 10rem); */
+    width: clamp(18rem,40vw,100rem);
+    text-align: center;
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.CustomerProject p{
+    font-size: clamp(1rem, 1.5vw, 10rem);
+    display: inline-block;
+    margin: clamp(0rem ,1vw ,10rem);
+    font-weight: 350;
+}
+.CustomerProject input{
+    margin: clamp(0rem, 1vw, 10rem);
+    width: clamp(18rem,45vw,100rem);
+    text-align: center;
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+.checkbox-group{
+    display: inline-block;
+    margin: 1rem;
+}
+.captcha{
+    display: inline-block;
+    margin: 1rem;
+
+}
+.captcha input{
+    /* margin: clamp(1rem, 1vw, 10rem); */
+    width: clamp(18rem,28vw,100rem);
+    text-align: center;
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+.endform button {
+    display: inline-block;
+    margin: 1rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    background: linear-gradient(109deg, #334fff 13.24%, #7433ff 92.35%);
+}
+.endform .message {
+    margin: 0 1rem 0 1rem;
+    color: white;
+}
+
+.endform button:hover {
+    background: linear-gradient(109deg, #7433ff 13.24%, #334fff 92.35%);
+}

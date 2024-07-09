@@ -1,0 +1,378 @@
+@keyframes fade-up {
+    from {
+        transform: translateY(10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fade-right {
+    from {
+        transform: translateX(-10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-left {
+    from {
+        transform: translateX(10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.Staffservicepage{
+    background-color: rgb(25 25 25);
+    overflow: hidden;
+}
+.event1 {
+    overflow: hidden;
+    width: 103%;
+}
+
+.event1 .info {
+    letter-spacing: 0.5rem;
+    font-size: clamp(0.6rem, 0.8vw, 10rem);
+    color: white;
+    margin: 10rem 0 0 0;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+    /* text-align: center; */
+}
+
+.event1 .h1text {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: clamp(2.5rem, 5vw, 10rem);
+    line-height: clamp(2.5rem, 5vw, 10rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+.event1 strong {
+    font-weight: 500;
+    background: linear-gradient(106deg, #b9c3ff 12.8%, #d7b8ff 47%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.event1 .event1end {
+    font-size: clamp(1rem, 1.7vw, 10rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event1 button {
+    margin: 10rem 0 10rem 0;
+    width: 15rem;
+    height: 4rem;
+    border: none;
+    border-radius: 100px;
+    background: linear-gradient(109deg, #334fff 13.24%, #7433ff 92.35%);
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event1 button:hover {
+    background: linear-gradient(109deg, #7433ff 13.24%, #334fff 92.35%);
+}
+
+.event1 .message {
+    margin: 0 1rem 0 1rem;
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event1 .inbutton {
+
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+.event2 {
+    margin: 0 0 0 0;
+    overflow: hidden;
+    width: 103%;
+}
+
+.event2border {
+    display:inline-block;
+    margin: 1rem 1.5rem 0 1.5rem;
+    max-width: 21rem;
+    border: 1px solid rgb(74, 74, 74);
+    background-color: rgb(59, 59, 59);
+    color:white;
+    border-radius: 10px;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event2border h1 {
+    margin: 1.5rem;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.event2border p {
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.event3{
+    padding: 14rem 0 0 0;
+    overflow: hidden;
+    width: 103%;
+}
+.event3 .info {
+    letter-spacing: 0.5rem;
+    font-size: clamp(0.6rem, 0.8vw, 10rem);
+    color: white;
+    margin: 10rem 0 0 0;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event3 .h1text {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: clamp(2.5rem, 5vw, 10rem);
+    line-height: clamp(2.5rem, 5vw, 10rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event3 strong {
+    font-weight: 500;
+    background: linear-gradient(106deg, #b9c3ff 50%, #d7b8ff 99%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.event4 .left{
+    overflow: hidden;
+
+    display: inline-block;
+    width: clamp(25rem, 46vw, 100rem);
+
+}
+.event4 .right{
+    overflow: hidden;
+
+    display: inline-block;
+    width: clamp(25rem, 46vw, 100rem);
+}
+
+.event4 .left span{
+    overflow: hidden;
+
+    color: white;
+    margin-top: 5rem;
+    display: block;
+    margin-left: clamp(1rem, 4vw, 10rem);
+    margin-right: clamp(1rem, 4vw, 10rem);
+    padding-bottom: 2rem;
+    font-size: clamp(1.8rem, 2.5vw, 10rem);
+    border-color: rgb(255 255 255);
+    opacity: 0;
+    animation-name: fade-right;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event4 .right span{
+    overflow: hidden;
+
+    color: white;
+    margin-top: 5rem;
+    display: block;
+    margin-left: 1rem;
+    margin-right: clamp(1rem, 4vw, 10rem);
+    padding-bottom: 2rem;
+    font-size: clamp(1.8rem, 2.5vw, 10rem);
+    border-color: rgb(255 255 255);
+    animation-name: fade-left;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event6 .h1text {
+    /* margin: 0 0 0 18rem; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: clamp(2.5rem, 4vw, 10rem);
+    line-height: clamp(2.5rem, 4vw, 10rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event6 strong {
+    font-weight: 500;
+    background: linear-gradient(106deg, #b9c3ff 50%, #d7b8ff 99%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.event6 .event6p {
+    margin-left: clamp(0rem, 6vw, 10rem);
+    margin-right: clamp(0rem, 6vw, 10rem);
+
+    font-size: clamp(1rem, 1.7vw, 10rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+.event7 {
+    margin-left: clamp(1rem, 4vw, 10rem);
+    margin-right: clamp(1rem, 4vw, 10rem);
+
+}
+/* .event7 .left{
+    display: inline-block;
+    width: clamp(23rem, 70vw, 100rem);
+    opacity: 0;
+    animation-name: fade-right;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+
+} */
+
+.event7 .borderleft{
+    border: 1px solid rgba(255, 255, 255, 0.197);
+    border-radius: 30px;
+    margin-top: 4rem;
+    display: inline-block;
+    width: clamp(23rem, 40vw, 100rem);
+    margin-left: clamp(1rem, 2vw, 10rem);
+    margin-right: clamp(1rem, 2vw, 10rem);
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+
+}
+
+
+.event7 span{
+    color: white;
+    display: block;
+    margin-left: clamp(1rem, 1.8vw, 10rem);
+    margin-right: clamp(1rem, 1.8vw, 10rem);
+    font-size: clamp(1.8rem, 2.5vw, 10rem);
+    border-color: rgb(255 255 255);
+
+}
+
+.event7 h2{
+    margin: 2rem 0 2rem 0;
+}
+.event7 p{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.721);
+    margin: 1rem auto 1rem auto;
+}
+
+.event7 img{
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+.event7 .image{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: clamp(1rem, 1.8vw, 10rem);
+    margin-right: clamp(1rem, 1.8vw, 10rem);
+}
+.event7 .h1text {
+    padding-top: 5rem;
+    font-size: clamp(2.5rem, 4vw, 10rem);
+    line-height: clamp(2.5rem, 4vw, 10rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-right;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+.event7 strong {
+    font-weight: 500;
+    background: linear-gradient(106deg, #b9c3ff 12.8%, #d7b8ff 47%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.event7 .event1end {
+    font-size: clamp(1rem, 2vw, 10rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+    float: right;
+
+}
+.event7 .left{
+    display: inline-block;
+    width: clamp(25rem, 42vw, 100rem);
+}
+.event7 .right{
+    margin-top: 4rem;
+    width: clamp(25rem, 42vw, 100rem);
+    display: inline-block;
+}
